@@ -1,0 +1,3 @@
+[submodule "GraphicsLab"]
+	path = GraphicsLab
+	url = git@github.com:adfwer233/GraphicsLab.git
