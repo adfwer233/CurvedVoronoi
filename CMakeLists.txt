@@ -2,6 +2,9 @@ cmake_minimum_required(VERSION 3.26)
 
 project(CurvedVoronoi VERSION 1.0 DESCRIPTION "CurvedVoronoi Demo" LANGUAGES CXX)
 
+find_package(Vulkan REQUIRED)
+find_package(OpenMP REQUIRED)
+
 add_subdirectory(GraphicsLab)
 
 set(CMAKE_CXX_STANDARD 20)
